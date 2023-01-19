@@ -1,0 +1,8 @@
+-- Tabela para lançamento dos modulos por cliente
+-- Estrutura da tabela (COD_CLIENTE, Nome, CTB, LOG, Orig, RH)
+Create table MODULOS (
+    COD_CLIENTE FLOAT (4),
+    NOME VARCHAR (100),
+    MODULO VARCHAR (25)
+)
+ALTER TABLE MODULOS ADD CONSTRAINT PK_MODULOS PRIMARY KEY (COD_CLIENTE);

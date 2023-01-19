@@ -1,0 +1,9 @@
+-- Criando a tabela de clientes 
+-- Chave primaria sera o Cod.cliente
+-- Estrutura da tabela (cod.cliente, Nome, Vertical)
+
+CREATE TABLE CLIENTES 
+( COD_CLIENTE CLOB (4),
+NOME VARCHAR2 (100),
+VERTICAL VARCHAR2 (20)
+)

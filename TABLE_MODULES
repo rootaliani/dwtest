@@ -8,3 +8,5 @@ Create table MODULOS (
 ALTER TABLE MODULOS ADD CONSTRAINT PK_MODULOS PRIMARY KEY (COD_CLIENTE);
 
 ALTER TABLE public.modulos RENAME TO "T_MODULOS";
+
+alter table "T_MODULOS" drop column nome 
